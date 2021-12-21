@@ -1,2 +1,2 @@
 # calculator
-https://mariiishka.github.io/calculator/
+[demo](https://mariiishka.github.io/calculator/)
