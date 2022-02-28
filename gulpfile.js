@@ -57,7 +57,7 @@ function scripts() {
 
 function styles() {
     return src('src/styles/style.scss')
-        .pipe(scss({outputStyle: 'nested'}))
+        .pipe(scss({outputStyle: 'compressed'}))
         .pipe(concat('style.min.css'))
         .pipe(autoprefixer({
             overrideBrowserslist: ['last 10 version'],
