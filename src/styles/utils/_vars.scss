@@ -1,0 +1,37 @@
+:root {
+  --primary: #fff;
+  --secondary: #e1efff;
+  --button-color: #000;
+  --text: #272727;
+  --green: #00dec3;
+}
+
+[data-theme="dark"] {
+  --primary: #000;
+  --secondary: #1c1c1c;
+  --button-color: #fff;
+  --text: #d8d8d8;
+  --green: #00f8d8;
+}
+
+$primary: var(--primary);
+$secondary: var(--secondary);
+$button-color: var(--button-color);
+$text: var(--text);
+$green: var(--green);
+$blue: #89c0ff;
+$gray: #928e8e;
+$shadow: #00000040;
+
+
+$md: 500px;
+$lg: 1100px;
+
+$radius-default: 40px;
+$padding-default: 18px;
+$duration-default: 0.3s;
+
+@include media-breakpoint-up($md) {
+  $radius-default: 50px;
+  $padding-default: 24px;
+}

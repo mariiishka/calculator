@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Gilroy, sans-serif;
+  font-weight: 500;
+  color: $text;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  color: inherit;
+  background-color: inherit;
+
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+
+  cursor: pointer;
+}
+
+input,
+textarea {
+  font-family: inherit;
+  background-color: inherit;
+}
